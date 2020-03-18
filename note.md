@@ -32,21 +32,28 @@
 >> 把檔案加進git staging area
 
 > git diff
->> 比較git working area 與 localrepo之差異
+>> 比較git working directory 與 localrepo之差異
 
-> git commit -m -a [filename] 
->> 把git working area commit到 localrepo
-### This is an H3#
-> hi
->> hihi
+> git commit [-m] [-a] <filename>
+>> -m 為message -a 為 add
+>> 把git working directory commit到 localrepo
 
-> hihihih
-* a
-* b
-* c
+> git rm --cached <filename>
+>> 把staging area內檔案刪除
+
+> git reset <pathspec>
+>> 把localrepo 與 staging area 的檔案都會被還原到<pathspec>，但 working directory 內的檔案不變
+
+> git checkout --<filename>
+>> 把檔案從localrepo checkout 到working directory
+
+> git remote <name> <url>
+>> git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
+
 >
-+ a
-+ b
->
-1. Hi
-2. HEY
+
+## Refrence
+
+* https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
+* https://kingofamani.gitbooks.io/git-teach/content/chapter_2/chapter_2reset_file.html
+* https://git-scm.com/docs
