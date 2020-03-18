@@ -23,6 +23,9 @@
 > 3. git config --global user.email
 >> 設定使用者電子信箱
 
+> 4. git config --global user.username <remote_name>
+>> 設定remote使用者名稱
+
 * git init
 > 將所在位置成立git repository
 
@@ -51,7 +54,11 @@
 * git remote <name> <url>
 > git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
 
-*
+* git push [-u <remote_name> <local_name> ]
+> -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
+> push 是把local repository push 到remote repository
+
+
 
 ## Refrence
 
