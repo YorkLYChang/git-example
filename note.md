@@ -1,62 +1,66 @@
 # Git LearningNotes
 ## 基本觀念
+
 分為Local&Remote，其中Local又分為:
 * working directory
-> 一般工作區域	
+  > 一般工作區域	
+
 * staging area
-> 暫存區
+  > 暫存區
+
 * local repository
-> local檔案庫
+  > local檔案庫
 
 ## 建立
 
 * git init
-> 將所在位置成立git repository
+  > 將所在位置成立git repository
 
 ## 基本指令
 
 * git --version
-> 查看git版本
+  > 查看git版本
 
 * git status
-> 顯示目前git狀態
+  > 顯示目前git狀態
 
 * git diff
-> 比較git working directory 與 local repository之差異
+  > 比較git working directory 與 local repository之差異
 
 * git add <filename>
-> 把檔案加進git staging area
+  > 把檔案加進git staging area
 
 * git commit [-m] [-a] <filename>
-> -m 為message -a 為 add
-> 把git working directory commit到 repository
+  > -m 為message -a 為 add
+  > 把git working directory commit到 repository
 
 * git rm --cached <filename>
-> 把staging area內檔案刪除
+  > 把staging area內檔案刪除
 
 * git checkout [pathspec] <file_name>
   >把local repository 名為<file_name>的檔案覆蓋到working directory 內
   >若有[pathspec]參數，則以[pathspec]版本的local repository
 
 * git reset <pathspec>
-> 把local repository 與 staging area 的檔案都還原到<pathspec>版本，但 working directory 內的檔案不變
+  > 把local repository 與 staging area 的檔案都還原到<pathspec>版本，但 working directory 內的檔案不變
   > <pathspec> ex:HEAD,HEAD~...
   
 ## 設定
 
 * git config 
-> 讀取或設定repository或global opiton
-> 1. git config --list
->> 查看目前設定
-> 2. git config --global user.name
->> 設定使用者名稱
-> 3. git config --global user.email
->> 設定使用者電子信箱
+  > 讀取或設定repository或global opiton
 
-> 4. git config --global user.username <remote_name>
->> 設定remote使用者名稱
+* git config --list
+  > 查看目前設定
 
+* git config --global user.name
+  > 設定使用者名稱
 
+* git config --global user.email
+  > 設定使用者電子信箱
+
+* git config --global user.username <remote_name>
+  > 設定remote使用者名稱
 
 ## Branch
 
@@ -66,7 +70,7 @@
   >如沒帶參數則顯示Branch List及用*在前表示現在所在之Branch
 
 * git checkout <branchname>
-> 切換至名字為<branchname>的branch
+  > 切換至名字為<branchname>的branch
 
 * git merge <branchname>
   >合併現在所在之Branch及名字為<branchname>之Branch
@@ -75,27 +79,18 @@
 ## 遠端
 
 * git remote <name> <url>
-> git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
+  > git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
 
 * git clone <url>
-> git 把<url>所在之專案內的檔案複製到local端
+  > git 把<url>所在之專案內的檔案複製到local端
 
 * git push [-u <remote_name> <local_name> ]
-> -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
-> push 是把local repository push 到remote repository
-
-
+  > -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
+  > push 是把local repository push 到remote repository
 
 *  git checkout --<filename>
->  把檔案從localrepo checkout 到working directory
-
-
-
-## Branch
-
-
-
-* 
+  >  把檔案從localrepo checkout 到working directory
+ 
 ## Refrence
 
 * https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
