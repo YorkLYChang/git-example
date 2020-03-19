@@ -80,6 +80,11 @@
   >合併現在所在之Branch及名字為<branchname>之Branch
   >如有衝突則必須手動修改解決衝突
  
+* git rebase [--abort][--continue]<branchname>
+  >更改從哪裡Branthch出來再目前之Branch修改點Merge上去
+  >如有衝突必須手動修改解決衝突後再帶[--continue]繼續執行
+  >如要取消rebase則帶[--abort]
+ 
 ## 遠端
 
 * git remote <name> <url>
