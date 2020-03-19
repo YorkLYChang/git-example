@@ -12,7 +12,7 @@
 
 * git --version
 > 查看git版本
-
+## 設定
 * git config 
 > 讀取或設定repository或global opiton
 > 1. git config --list
