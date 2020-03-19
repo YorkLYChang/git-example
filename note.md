@@ -10,8 +10,11 @@
 
 * local repository
   > local檔案庫
+  
 **關係如圖**
+
 ![GITHUB]( https://git-scm.com/book/en/v2/images/areas.png "GIT")
+
 ## 建立
 
 * git init
