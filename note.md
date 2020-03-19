@@ -10,7 +10,8 @@
 
 * local repository
   > local檔案庫
-
+**關係如圖**
+![GITHUB]( https://git-scm.com/book/en/v2/images/areas.png "GIT")
 ## 建立
 
 * git init
@@ -77,7 +78,7 @@
   >如有衝突則必須手動修改解決衝突
  
 ## 遠端
-![GITHUB]( https://ithelp.ithome.com.tw/upload/images/20181021/20111449qSjpocm8yx.png "圖片名稱")
+
 * git remote <name> <url>
   > git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
 
