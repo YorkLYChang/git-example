@@ -73,10 +73,10 @@
   > 如有帶-d 參數，則刪除名字為<branchname>的Branch
   > 如沒帶參數則顯示Branch List及用*在前表示現在所在之Branch
 
-* git checkout <branchname>
+* git checkout <Branchname>
   > 切換至名字為<branchname>的branch
 
-* git merge <branchname>
+* git merge <Branchname>
   > 切換至名字為<branchname>的branch
     > 合併現在所在之Branch及名字為<branchname>之Branch
   > 如有衝突則必須手動修改解決衝突
