@@ -102,7 +102,20 @@
 
 * git fetch
   > 把remote repository 複製下來放到新的一個Branch
- 
+
+## Tag
+
+* git tag
+  > 查看目前有哪些tag
+
+* git tag [-d] <tagname>
+  > 在當前得版本加入tag
+  > 若有帶[-d]參數，則刪除tag
+  
+* git tag -am <"輸入註解"> <tagname>
+  > 在當前的版本加入tag,並附帶註解
+  
+
 ## Refrence
 
 * https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
