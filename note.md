@@ -48,8 +48,8 @@
 * git reset <pathspec>
 > 把localrepo 與 staging area 的檔案都會被還原到<pathspec>，但 working directory 內的檔案不變
 
-* git checkout --<filename>
-> 把檔案從localrepo checkout 到working directory
+* !! git checkout --<filename>
+> !! 把檔案從localrepo checkout 到working directory
 
 * git remote <name> <url>
 > git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
@@ -58,7 +58,12 @@
 > -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
 > push 是把local repository push 到remote repository
 
-testtest
+## Branch
+
+* git checkout [-b] <branch>
+> -b 為建立,checkout 為切換branch
+
+* 
 ## Refrence
 
 * https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
