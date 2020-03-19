@@ -98,10 +98,10 @@
   > push 是把local repository push 到remote repository
 
 * git pull
-  >把remote repository pull 到 local repository
+  > 把remote repository pull 到 local repository
 
 * git fetch
-  >把remote repository 複製下來放到新的一個Branch
+  > 把remote repository 複製下來放到新的一個Branch
  
 ## Refrence
 
