@@ -92,7 +92,7 @@
   > -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
   > push 是把local repository push 到remote repository
 
-*  git pull
+* git pull
   >把remote repository pull 到 local repository
 
 * git fetch
