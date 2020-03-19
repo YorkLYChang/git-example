@@ -77,7 +77,7 @@
   >如有衝突則必須手動修改解決衝突
  
 ## 遠端
-
+![GITHUB]( https://ithelp.ithome.com.tw/upload/images/20181021/20111449qSjpocm8yx.png "圖片名稱")
 * git remote <name> <url>
   > git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
 
@@ -88,11 +88,15 @@
   > -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
   > push 是把local repository push 到remote repository
 
-*  git checkout --<filename>
-  >  把檔案從localrepo checkout 到working directory
+*  git pull
+  >把remote repository pull 到 local repository
+
+* git fetch
+  >把remote repository 複製下來放到新的一個Branch
  
 ## Refrence
 
 * https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
 * https://kingofamani.gitbooks.io/git-teach/content/chapter_2/chapter_2reset_file.html
 * https://git-scm.com/docs
+* https://backlog.com/git-tutorial/tw/stepup/stepup3_2.html
