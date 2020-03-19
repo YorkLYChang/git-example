@@ -1,6 +1,6 @@
 # Git LearningNotes
 
-##aa 基本觀念
+## 基本觀念
 分為Local&Remote，其中Local又分為:
 * working directory
 > 一般工作區域	
