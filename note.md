@@ -1,6 +1,7 @@
 # Git LearningNotes
 ## 基本觀念
 
+'
 分為Local&Remote，其中Local又分為:
 * working directory
   > 一般工作區域	
@@ -10,7 +11,7 @@
 
 * local repository
   > local檔案庫
-  
+' 
 **關係如圖**
 
 ![GITHUB]( https://git-scm.com/book/en/v2/images/areas.png "GIT")
