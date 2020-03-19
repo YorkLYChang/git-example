@@ -34,7 +34,7 @@
 * git add <filename>
   > 把檔案加進git staging area
 
-* git commit [-m] [-a] <filename>
+* git commit [-a] [-m <comment>]
   > -m 為message -a 為 add
   > 把git working directory commit到 repository
 
