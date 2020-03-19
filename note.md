@@ -73,15 +73,15 @@
   > 如有帶-d 參數，則刪除名字為<branchname>的Branch
   > 如沒帶參數則顯示Branch List及用*在前表示現在所在之Branch
 
-* git checkout \<Branchname>
-  > 切換至名字為<branchname>的branch
+* git checkout \<branchname>
+  > 切換至名字為\<branchname>的branch
 
-* git merge '<Branchname>'
-    > 合併現在所在之Branch及名字為<branchname>之Branch
+* git merge \<branchname>
+  > 合併現在所在之Branch及名字為\<branchname>之Branch
   > 如有衝突則必須手動修改解決衝突
  
 * git rebase [--abort][--continue]<branchname>
-  > 更改從哪裡Branthch出來再目前之Branch修改點Merge上去
+  > 更改從哪裡Branthch出來再目前之branch修改點Merge上去
   > 如有衝突必須手動修改解決衝突後再帶[--continue]繼續執行
   > 如要取消rebase則帶[--abort]
  
