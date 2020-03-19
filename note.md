@@ -54,7 +54,7 @@
 * git remote <name> <url>
 > git 把remote <url> 加到 <name> 這個使用者，讓專案之道<name>是對應到<url>
 
-* git push [-u <remote_name> <local_name> ]
+* git push [-u <local_name> <remote_name> ]
 > -u 是代表--set-upstream,設定 upstream 只要成功push 一次，就可以使local branch開始自動追蹤指定的remote branch
 > push 是把local repository push 到remote repository
 
